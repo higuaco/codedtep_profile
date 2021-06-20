@@ -13,6 +13,7 @@ html {
 
 body {
   margin: 0 auto;
+  padding: 0;
   color: #383E45;
   font-size: 0.9rem;
   font-family: sanserif;
@@ -57,6 +58,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  padding: 0;
 }
 
 header h1 {
@@ -76,6 +78,10 @@ header li a:hover {
 /* * * * * * * * *
 *	main
 * * * * * * * * */
+main {
+  background: pink;
+}
+
 #mainvisual {
   width: 100%;
   height: 600px;
@@ -84,5 +90,38 @@ header li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 80px;
+}
+
+.section-title {
+  display: inline-block;
+  font-size: 2rem;
+  border-bottom: 1px solid #383E45;
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+
+#about_a img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+#about_a {
+  background: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about_b {
+  background: red;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
