@@ -69,6 +69,11 @@ header li a:hover {
   opacity: 0.7;
 }
 
+h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
 .logo {
   width: 120px;
   line-height: 1px;
@@ -78,10 +83,6 @@ header li a:hover {
 /* * * * * * * * *
 *	main
 * * * * * * * * */
-main {
-  background: pink;
-}
-
 #mainvisual {
   width: 100%;
   height: 600px;
@@ -100,6 +101,10 @@ main {
   margin-top: 0;
 }
 
+#about {
+  margin-bottom: 100px;
+}
+
 #about_a img {
   width: 100px;
   height: 100px;
@@ -108,7 +113,6 @@ main {
 }
 
 #about_a {
-  background: blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,7 +125,26 @@ main {
 }
 
 #about_b {
-  background: red;
   text-align: left;
+}
+
+#about_b p {
+  margin: 0;
+}
+
+#bicycle ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+#bicycle ul li {
+  margin: 0;
+  padding: 0;
+  width: 32%;
 }
 /*# sourceMappingURL=style.css.map */
