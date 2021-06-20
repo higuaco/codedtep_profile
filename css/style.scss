@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   padding: 0;
   color: #383E45;
-  font-size: 0.9rem;
+  font-size: 0.9rem; //14.4px
   font-family: sanserif;
 }
 .inner {
@@ -78,7 +78,7 @@ h3 {
 }
 .section-title {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 2rem; //16*2= 32px
   border-bottom: 1px solid #383E45;
   margin-bottom: 60px;
   margin-top: 0;
@@ -120,8 +120,7 @@ h3 {
 *	footer
 * * * * * * * * */
 footer {
-  font-size: 0.5rem;
+  font-size: 0.5rem; // 16pxの半分=8px
   padding: 10px 0;
   text-align: center;
 }
-
